@@ -56,7 +56,7 @@
       [id^="flexContainer"] {
         display: flex;
       }
- /*this basically means that all the flex containers will have a display of flex
+      /*this basically means that all the flex containers will have a display of flex
    
 
       /* 👉 Task 1 - [HINT] only the flex container needs to be manipulated */
@@ -92,15 +92,28 @@
       }
 
       /* 👉 Task 5 - [HINT] research align-self */
-#flexContainer5 {
-  flex-direction: column;
-  justify-content: center;
-}
-#flexContainer5 .flexItem:nth-child(2){
-  align-self: center;
-}
+      #flexContainer5 {
+        flex-direction: column;
+        justify-content: center;
+      }
+      #flexContainer5 .flexItem:nth-child(2) {
+        align-self: center;
+      }
       /* 👉 Task 6 - [HINT] flex items can be flex containers */
-
+      #flexContainer6 {
+       flex-direction: row-reverse;
+       justify-content: flex-end;
+       align-items: flex-end;
+      }
+      #flexContainer6 .flexItem:nth-child(1){
+        justify-content: flex-end;
+      }
+      #flexContainer6 .flexItem:nth-child(2){
+        justify-content: flex-end;
+      }
+      #flexContainer6 .flexItem:nth-child(3){
+        justify-content: flex-start;
+      }
       /* 👉 Task 7 - [HINT] research flex-grow */
 
       /* 👉 Task 8 - [HINT] you got this! */
